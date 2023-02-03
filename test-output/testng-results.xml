@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AllSuite" duration-ms="22416" started-at="2023-01-31T19:11:23Z" finished-at="2023-01-31T19:11:45Z">
+  <suite name="Default suite" duration-ms="26542" started-at="2023-02-01T20:47:03 IST" finished-at="2023-02-01T20:47:29 IST">
     <groups>
     </groups>
-    <test name="Google Test" duration-ms="12078" started-at="2023-01-31T19:11:23Z" finished-at="2023-01-31T19:11:35Z">
-      <class name="A1_GoogleTest.a1_GoogleTest">
-        <test-method status="PASS" signature="VerifyGooglePage()[pri:0, instance:A1_GoogleTest.a1_GoogleTest@1e127982]" name="VerifyGooglePage" duration-ms="12057" started-at="2023-02-01T00:41:23Z" finished-at="2023-02-01T00:41:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyGooglePage -->
-      </class> <!-- A1_GoogleTest.a1_GoogleTest -->
-    </test> <!-- Google Test -->
-    <test name="Bing Test" duration-ms="10313" started-at="2023-01-31T19:11:35Z" finished-at="2023-01-31T19:11:45Z">
+    <test name="Default test" duration-ms="26542" started-at="2023-02-01T20:47:03 IST" finished-at="2023-02-01T20:47:29 IST">
       <class name="A2_BingTest.a1_BingTest">
-        <test-method status="PASS" signature="VerifyGooglePage()[pri:0, instance:A2_BingTest.a1_BingTest@210366b4]" name="VerifyGooglePage" duration-ms="10311" started-at="2023-02-01T00:41:35Z" finished-at="2023-02-01T00:41:45Z">
+        <test-method status="PASS" signature="VerifyGooglePage()[pri:0, instance:A2_BingTest.a1_BingTest@69b0fd6f]" name="VerifyGooglePage" duration-ms="26480" started-at="2023-02-01T20:47:03 IST" finished-at="2023-02-01T20:47:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyGooglePage -->
       </class> <!-- A2_BingTest.a1_BingTest -->
-    </test> <!-- Bing Test -->
-  </suite> <!-- AllSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

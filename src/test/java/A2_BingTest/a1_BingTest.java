@@ -26,7 +26,7 @@ public class a1_BingTest {
 		wd.findElement(By.name("q")).submit();
 		
 		File src= ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(src, new File("D:/Selenium/Batch251/J1_GitUpTest/src/bing.png"));
+		FileHandler.copy(src, new File("D:/Selenium/Batch251/J2_GitHubTest/screenshot/bing.png"));
 	
 		wd.quit();
 	}

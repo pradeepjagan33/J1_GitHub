@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [AllSuite]">
+  <test name="Google Test(failed)">
+    <classes>
+      <class name="A1_GoogleTest.a1_GoogleTest">
+        <methods>
+          <include name="VerifyGooglePage"/>
+        </methods>
+      </class> <!-- A1_GoogleTest.a1_GoogleTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+  <test name="Bing Test(failed)">
+    <classes>
+      <class name="A2_BingTest.a1_BingTest">
+        <methods>
+          <include name="VerifyGooglePage"/>
+        </methods>
+      </class> <!-- A2_BingTest.a1_BingTest -->
+    </classes>
+  </test> <!-- Bing Test(failed) -->
+</suite> <!-- Failed suite [AllSuite] -->
